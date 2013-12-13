@@ -1,7 +1,7 @@
 ActiveDirectoryRedux
 ====================
 
-This is an ActiveDirectory integration for MODX Revolution.
+Authentication in MODX Revolution using Microsoft Active Directory.
 
 ## Installation
 
@@ -14,7 +14,7 @@ From there, you'll need to setup some settings:
 * activedirectoryx.account_suffix : The account suffix for your domain. Usually in @forest.domain format.
 * activedirectoryx.domain_controllers : A comma-separated list of domain controllers. Specifiy multiple controllers if you would like the class to balance the LDAP queries.
 
-## ActiveDirectory Group Synchronization
+## Group Synchronization
 
 ActiveDirectoryX will automatically grab all the ActiveDirectory groups a user belongs to, and then search for any MODx UserGroups with matching names. If found, the user will be added to those groups.
 
